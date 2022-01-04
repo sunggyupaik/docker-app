@@ -17,6 +17,7 @@ after_success:
 
 deploy:
   provider: elasticbeanstalk
+  edge: true
   region: "ap-notheast-2"
   app: "docker-react-app"
   env: "Dockerreactapp-env-1"
